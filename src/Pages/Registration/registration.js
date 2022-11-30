@@ -143,7 +143,7 @@ function Registration() {
         setSpinner(true);
         
 
-        fetch('https://phoneclinicse1.herokuapp.com/register', {
+        fetch('https://phone-clinic-server.onrender.com/register', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

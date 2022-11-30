@@ -79,7 +79,7 @@ function Login() {
         setUserNotFound(false);
         setPasswordDoestMatch(false);
 
-        fetch('https://phoneclinicse1.herokuapp.com/login', {
+        fetch('https://phone-clinic-server.onrender.com/login', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
