@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Creepster&family=Josefin+Sans&family=Luxurious+Roman&family=Open+Sans:wght@300&family=PT+Sans+Narrow:wght@700&family=PT+Serif&family=Permanent+Marker&family=Playball&family=Roboto:wght@100&family=Source+Sans+Pro:wght@300&display=swap');
+
+
+.Logo img {
+    height: 75px;
+    width: 140px;
+}
+
+.Logo a {
+    text-decoration: none;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Logo h2 {
+    font-size: 40px;
+    color: #1d3557;
+}

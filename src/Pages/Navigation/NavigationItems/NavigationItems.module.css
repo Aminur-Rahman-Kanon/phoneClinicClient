@@ -1,0 +1,57 @@
+.navMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.inActive {
+    text-decoration: none;
+    margin: 12px;
+    color: grey;
+    position: relative;
+}
+
+.inActive:hover {
+    color: #5490e1;
+}
+
+.inActive:hover > .childRoutes {
+    display: flex;
+}
+
+.active {
+    text-decoration: none;
+    color: #5490e1;
+    margin: 12px;
+}
+
+.childRoutes {
+    position: absolute;
+    width: 150px;
+    padding: 10px;
+    top: 20px;
+    right: -60px;
+    z-index: 100;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    background-color: white;
+    display: none;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width: 990px){
+    .navMain {
+        flex-flow: column;
+    }
+
+    .childRoutes {
+        top: -65px;
+        right: 100%;
+    }
+}

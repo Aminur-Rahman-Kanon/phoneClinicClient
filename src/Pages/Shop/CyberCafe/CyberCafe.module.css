@@ -1,0 +1,108 @@
+.HeaderMain {
+    width: 100%;
+    height: 445px;
+    margin: 50px auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #161853;
+}
+
+.HeaderImg {
+    width: 45%;
+    margin: 0 auto;
+}
+
+.HeaderImg img {
+    width: 90%;
+}
+
+.HeaderPara {
+    width: 45%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 1px;
+    color: #FAEDF0;
+}
+
+.HeaderPara h4 {
+    max-width: 450px;
+}
+
+.Subpara {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.Subpara h4 {
+    margin: 5px;
+}
+
+.HeaderIntro1 {
+    width: 100%;
+    margin: 50px auto;
+    display: flex;
+    flex-flow: column;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.SubIntro2 {
+    display: flex;
+    margin: 20px 0;
+    justify-content: space-evenly;
+}
+
+.SubIntro2Div {
+    width: 30%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.SubIntro2Div img {
+    height: 180px;
+    width: 180px;
+}
+
+.SubIntro2Div p {
+    max-width: 300px;
+}
+
+@media (max-width: 778px) {
+    .SubIntro2 {
+        flex-flow: column;
+    }
+    .SubIntro2Div {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .SubIntro2Div p {
+        max-width: unset;
+    }
+
+    .SubIntro2Div img {
+        height: 125px;
+        width: 125px;
+    }
+}
+
+@media (max-width:550px) {
+
+    .HeaderMain {
+        height: 350px;
+    }
+    .HeaderImg {
+        display: none;
+    }
+    .HeaderPara {
+        width: 85%;
+    }
+}

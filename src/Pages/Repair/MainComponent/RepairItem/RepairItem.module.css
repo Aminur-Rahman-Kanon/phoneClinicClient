@@ -1,0 +1,59 @@
+.Main {
+    align-items: center;
+    background-color: #bbbfca;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    flex-flow: column;
+    height: 115px;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    text-decoration: none;
+    width: 115px;
+}
+
+.Main a {
+    text-decoration: none;
+}
+
+.Main img {
+    width: 70px;
+}
+
+.Main:hover {
+    animation: zoom 0.4s ease-out forwards;
+}
+
+.Main p {
+    color: #F1F6F9;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-family: 'PT Serif', serif;
+    text-transform: capitalize;
+}
+
+@media (max-width: 675px) {
+    .Main {
+        height: 90px;
+        width: 90px;
+        margin: 15px;
+        padding: 20px;
+    }
+
+    .Main img {
+        height: 40px;
+        width: 40px;
+    }
+    
+    .Main p {
+        font-size: 13px;
+    }
+}
+
+@keyframes zoom {
+    100% {
+        transform: scale(1.2);
+    }
+}

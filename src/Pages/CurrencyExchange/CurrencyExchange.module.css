@@ -1,0 +1,153 @@
+.Main {
+    width: 100%;
+    margin: 20px auto;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(19deg, #414144, #538fe0);
+}
+
+.Details {
+    width: 50%;
+    margin: 10px auto;
+    opacity: 0.5;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px;
+}
+
+
+.h2, .p {
+    margin: 15px;
+    text-align: left;
+}
+
+.Form {
+    width: 50%;
+    margin: 10px auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Form form {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Section {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.Section h3 {
+    height: 30px;
+    font-size: 25px;
+    margin: 0;
+    color: #a4b3c8;
+}
+
+.Form label {
+    height: 40px;
+    width: 100px;
+    color: white;
+}
+
+.Form select {
+    height: 40px;
+    width: 300px;
+    text-align: center;
+    margin: 5px auto;
+    border-radius: 10px;
+    outline: none;
+}
+
+.Form input {
+    height: 38px;
+    width: 295px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    text-align: center;
+}
+
+.Button {
+    height: 40px;
+    width: 303px;
+    margin: 30px auto;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: #ffffffe0;
+    cursor: pointer;
+}
+
+.Button:hover {
+    background-color: white;
+}
+
+.Button.Disable {
+    background-color: #ffffff75;
+    color: #00000094;
+    cursor: not-allowed;
+}
+
+@media (max-width: 750px) {
+
+    .Main {
+        flex-flow: column;
+    }
+    
+    .Details {
+        width: 100%;
+    }
+
+    .Form {
+        width: 100%;
+    }
+
+    .Form form {
+        width: 80%;
+    }
+
+    .Section {
+        width: 100%;
+    }
+
+    .Form select {
+        width: 80%;
+    }
+
+    .Form input {
+        width: 80%;
+    }
+}
+
+@media (max-width: 500px) {
+    .Form form {
+        width: 100%;
+    }
+
+    .Form select {
+        width: 95%;
+    }
+
+    .Form input {
+        width: 95%;
+    }
+
+    .Button {
+        width: 80%;
+    }
+}

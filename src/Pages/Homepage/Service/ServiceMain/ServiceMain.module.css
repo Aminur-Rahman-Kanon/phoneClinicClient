@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Island+Moments&family=Josefin+Sans&family=Luxurious+Roman&family=Open+Sans:wght@300&family=PT+Serif&family=Permanent+Marker&family=Roboto:wght@100&display=swap');
+
+.ServiceMain {
+    width: 100%;
+    overflow: hidden;
+}
+
+.ServiceMain h2 {
+    color: #3a7ed9;
+}
+
+.ServiceMain a {
+    text-decoration: none;
+    padding: 20px;
+}
+
+.ServiceMain .Ext {
+    width: 95%;
+    margin: 20px auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    /* background-color: #4954646e; */
+    background-image: linear-gradient(360deg, rgb(107, 107, 107), rgb(48, 47, 47));
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    box-shadow: 3px 3px 12px 8px #bcd8e5;
+    letter-spacing: 1px;
+}

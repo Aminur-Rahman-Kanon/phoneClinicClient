@@ -1,0 +1,23 @@
+.Drawtoggle {
+    width: 40px;
+    height: 35px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.bar {
+    width: 70%;
+    height: 2px;
+    margin: 3px 0;
+    background-color: rgb(106 172 234);
+}
+
+@media(min-width: 991px){
+    .Drawtoggle {
+        display: none;
+    }
+}

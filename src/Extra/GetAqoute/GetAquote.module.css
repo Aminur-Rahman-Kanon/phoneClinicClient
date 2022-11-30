@@ -1,0 +1,32 @@
+.Main {
+    height: 250px;
+    width: 90%;
+    margin: 80px auto;
+    padding: 10px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Luxurious Roman', cursive;
+    color: #468bdf;
+}
+
+.Sub {
+    font-size: 18px;
+}
+
+.Call {
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+
+.Num {
+    text-decoration: none;
+    color: #468bdf;
+}
+

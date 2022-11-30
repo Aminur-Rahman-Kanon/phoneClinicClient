@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Island+Moments&family=Josefin+Sans&family=Luxurious+Roman&family=Open+Sans:wght@300&family=PT+Serif&family=Permanent+Marker&family=Roboto:wght@100&display=swap');
+
+
+.Main {
+    width: 100%;
+    margin: auto;
+    background-color: #334257;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+.workingHourMain {
+    width: 50%;
+    min-width: 233px;
+    margin: 15px auto;
+}
+
+.workingHourHeader {
+    color: #EEEEEE
+}
+
+.workingHourPara {
+    color: #EEEEEE;
+    font-weight: 600;
+    text-align: left;
+    margin: 5px;
+}
+
+.workingHourLists {
+    padding: 0;
+    list-style: none;
+}
+
+.workingHourList {
+    width: 100%;
+    margin: 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #EEEEEE;
+}
+
+.workingHourFont {
+    margin: 5px;
+}
+
+.usefulLinkMain {
+    width: 25%;
+    min-width: 200px;
+    margin: 0 auto;
+    height: 290px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+    letter-spacing: 1px;
+}
+
+.usefulLinkHeader {
+    color: #EEEEEE;
+}
+
+.usefulLinkLists {
+    list-style: none;
+    padding: 0;
+    height: 140px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.usefulLinkList {
+    color: #EEEEEE;
+    cursor: pointer;
+}
+
+.usefulLinkLinks {
+    text-decoration: none;
+}
+
+.usefulLinkList:hover {
+    color: white;
+}
+
+
+.socialLinkMain {
+    width: 25%;
+    min-width: 250px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.socialLinkLists {
+    width: 100%;
+    display: flex;
+    padding: 0;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.socialLinkHeader {
+    font-size: 33px;
+    color: #EEEEEE;
+}
+
+.socialLinkPara {
+    font-size: 21px;
+    color: #EEEEEE;
+}
+
+
+
+.socialLinkList {
+    list-style: none;
+    
+}
+
+.socialLinkLinks {
+    color: #EEEEEE;
+
+}
+
+#fb:hover {
+    color: #6985bd;
+}
+
+#in:hover{
+    color: #e95950;
+}
+
+#yt:hover {
+    color: #c4302b;
+}
+
+#tw:hover {
+    color: #00acee
+}
+
+.quickLinkMain {
+    width: 25%;
+    min-width: 200px;
+    margin: 0 auto;
+    height: 290px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+    letter-spacing: 1px;
+}
+
+.quickLinkLists {
+    list-style: none;
+    padding: 0;
+    height: 140px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.quickLinkLinks {
+    text-decoration: none;
+}
+
+.quickLinkHeader {
+    color: #EEEEEE;
+}
+
+.quickLinkList {
+    color: #EEEEEE;
+    cursor: pointer;
+    
+}
+
+.quickLinkList:hover {
+    color: white;
+}
+
+@media (max-width: 400px){
+    .quickLinkMain {
+        height: 200px;
+    }
+}
+
+
+@media (max-width: 400px){
+    .Main h2 {
+        font-size: 20px;
+    }
+
+    .Main p {
+        font-size: 16px;
+    }
+
+    .Main ul {
+        width: 95%;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .usefulLinkMain {
+        height: 200px;
+    }
+}
+
+@media (max-width: 449px) {
+    .Main {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 449px) {
+    .Main {
+        height:1000px;
+    }
+}

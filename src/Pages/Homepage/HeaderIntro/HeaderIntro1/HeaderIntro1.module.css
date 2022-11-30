@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=PT+Serif&family=Roboto:wght@100&display=swap');
+
+.HeaderIntro1 {
+    width: 100%;
+    height: 700px;
+    margin: 0 auto;
+    background-image: url('../../../../Assets/Images/others/bg2.jpg');
+    background-position:center;
+    background-size:cover;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    animation: head1 2s ease-in forwards;
+    filter: contrast(2);
+}
+
+.HeaderIntro1 h2 {
+    color: #EDEDED;
+    text-transform: uppercase;
+    letter-spacing:2px;
+    font-size: 1.8rem;
+    height: 50px;
+    margin-bottom: 70px;
+    padding: 10px;
+    animation: header 2s ease-out forwards;
+    font-weight: 800;
+}
+
+.para {
+    color: #ffffff;
+    text-transform: uppercase;
+    height:40px;
+    width: 90%;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-bottom: 60px;
+    animation: para 2s ease-out forwards;
+    font-weight: 700;
+}
+
+.btn {
+    height: 50px;
+    width: 220px;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    background-color: #bbbbbbc4;
+    cursor: pointer;
+    animation: btn 2s ease-out forwards;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #646161;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+    font-weight: 800;
+}
+
+@keyframes head1 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes header {
+    0% {
+        transform: translateY(-600%);
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 0.5;
+    }
+
+    75% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes para {
+    0% {
+        transform: translateY(-700%);
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 0.5;
+    }
+
+    75% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes btn {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 0.5;
+    }
+
+    75% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+
+@media (max-width: 500px){
+    .HeaderIntro1 h2 {
+        font-size: 18px;
+    }
+
+    .HeaderIntro1 p {
+        font-size: 12px;
+    }
+
+    .btn {
+        height: 43px;
+        width: 155px;
+        font-size: 11px;
+    }
+}

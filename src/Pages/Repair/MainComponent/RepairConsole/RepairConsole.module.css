@@ -1,0 +1,13 @@
+.Main {
+    width: 95%;
+    margin: 0 auto;
+    padding: 30px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    background-color: #495464;
+    border-radius: 20px;
+    box-shadow: 3px 3px 12px 8px #ffffff26;
+}

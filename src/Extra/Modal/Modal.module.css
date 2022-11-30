@@ -1,0 +1,22 @@
+.modalMain {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    min-height: 100px;
+    background-color: #818181;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 10px;
+    z-index: 1000;
+}
+
+@media (max-width: 820px) {
+    .Main {
+        width: 60%;
+    }
+}

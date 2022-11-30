@@ -1,0 +1,107 @@
+.Main {
+    width: 100%;
+    margin: 50px auto;
+    overflow:hidden;
+}
+
+.Main h2 {
+    font-size: 40px;
+    letter-spacing: 5px;
+    color: #3a7ed9;
+}
+
+.Para h3 {
+    height: 47px;
+}
+
+.Para p {
+    height: 147px;
+}
+
+.Sub {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.Container1, .Container2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 0 auto;
+    overflow:hidden;
+    /* height: 250px; */
+}
+
+.Para {
+    display: flex;
+    flex-flow: column;
+    width: 50%;
+    margin: 0 20px ;
+    justify-content: flex-start;
+    color: #3a7ed9;
+}
+
+.Smile {
+    font-size: 60px;
+    color: #E63946;
+}
+
+@media (max-width: 799px) {
+    .Container1 {
+        flex-flow: column-reverse;
+    }
+
+    .Container2 {
+        flex-flow: column;
+    }
+
+    .smile {
+        height: 80px
+    }
+
+    .Para {
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+    }
+}
+
+@media (max-width: 799px){
+    .Main {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px 0;
+    }
+
+    .Main h2 {
+        font-size: 27px;
+    }
+
+    .Img {
+        display: none;
+    }
+
+    .Sub div {
+        width: 90%
+    }
+}
+
+/* @media (max-width:400px) {
+    .Main {
+        height: 1300px;
+    }
+
+    .Sub {
+        height: 1080px;
+    }
+} */

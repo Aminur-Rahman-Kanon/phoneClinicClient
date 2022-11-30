@@ -1,0 +1,94 @@
+.Main {
+    width: 100%;
+    margin: 20px auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.bgMain {
+    height: 400px;
+    width: 90%;
+    margin: 0 auto;
+    background-image: url('../../Assets/Images/others/store-locator.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.section1 {
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px 0;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.store {
+    width: 100%;
+    margin: 30px auto;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.store1, .store2 {
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+
+.store1Pic {
+    height: 270px;
+    width: 340px;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-image: url('../../Assets/Images/others/phoneClinic.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.store2Pic {
+    height: 270px;
+    width: 340px;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-image: url('../../Assets/Images/others/waterloo.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.storeDetails {
+    line-height: 1.5;
+}
+
+.storeDetails ul {
+    list-style: none;
+    padding: 0;
+}
+
+.storeDetails ul li {
+    margin: 5px auto;
+}
+
+.direction a {
+    margin: 0 5px;
+    color: #cd4141;
+}
+
+.direction a:hover {
+    color: red;
+}
+
+.location {
+    color: #e1768e;
+    margin: 0 5px;
+}
+
+@media (max-width: 550px) {
+    .bgMain {
+        height: 270px;
+        width: 100%;
+    }
+}

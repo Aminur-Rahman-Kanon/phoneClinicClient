@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Josefin+Sans&family=Luxurious+Roman&family=Open+Sans:wght@300&family=PT+Serif&family=Permanent+Marker&family=Playball&family=Roboto:wght@100&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Josefin+Sans&family=Luxurious+Roman&family=Open+Sans:wght@300&family=PT+Serif&family=Permanent+Marker&family=Playball&family=Roboto:wght@100&family=Source+Sans+Pro:wght@300&display=swap'); */
+
+.Main {
+    width: 95%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.MainImg {
+    width: 45%;
+    margin: 0 auto;
+    font-family: 'PT Serif', serif;
+    padding: 8px;
+}
+
+.MainImg img {
+    width: 70%;
+}
+
+.MainPara {
+    width: 45%;
+    margin: 0 auto;
+    font-family: 'PT Serif', serif;
+    padding: 8px;
+    color: #3a7ed9;
+}
+
+.Main h2 {
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.Para {
+    width: 80%;
+    margin: 30px auto;
+    font-size: 18px;
+    font-family: 'PT Serif', serif;
+    line-height: 30px;
+}
+
+.Intro1 {
+    width: 80%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    color: #3a7ed9;
+}
+
+
+.Intro1List {
+    width: 100%;
+    margin: 0 auto;
+    list-style: auto;
+    padding: 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.Intro1List li {
+    margin: 10px 0;
+    text-align: left;
+}
+
+.Para p {
+    text-align: left;
+}
+
+.SelectPhone {
+    margin: 80px auto;
+}
+
+.SelectPhone h2 {
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Luxurious Roman', cursive;
+    color: #3a7ed9;
+}
+
+
+@media (max-width: 486px) {
+    .MainImg {
+        display: none;
+    }
+
+    .MainPara {
+        width: 70%;
+    }
+}

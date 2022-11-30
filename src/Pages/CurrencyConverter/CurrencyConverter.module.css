@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Creepster&family=Josefin+Sans&family=Luxurious+Roman&family=Open+Sans:wght@300&family=PT+Sans+Narrow:wght@700&family=PT+Serif&family=Permanent+Marker&family=Playball&family=Playfair+Display&family=Roboto:wght@100&family=Source+Sans+Pro:wght@300&display=swap');
+
+
+.Main {
+    width: 100%;
+    margin: 20px auto;
+    height: 630px;
+    display: flex;
+    justify-content: right;
+    font-family: 'PT Serif', serif;
+    background-image: url('../../Assets/Images/others/bg7.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Details {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+.Details h1 {
+    color: #F05454;
+}
+
+.Details h3{
+    color: #fdceb9;
+}
+
+.SubDetails select {
+    height: 55px;
+    width: 73%;
+    min-width: 270px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: #ccbdd0;
+}
+
+.SubDetails select option {
+    color: #676FA3;
+}
+
+.Img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Img img {
+    width: 500px;
+}
+
+.Input {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+}
+
+.SubDetails input {
+    height: 50px;
+    width: 70%;
+    min-width: 250px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 2px 9px;
+    text-align: center;
+    background-color: #ccbdd0;
+    font-family: 'PT Serif', serif;
+}
+
+.submitBtn {
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    margin: 15px;
+    background-color: #d3c1db;
+    color: #232d3b;
+    cursor: pointer;
+}
+
+.submitBtnDisabled {
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    margin: 15px;
+    background-color: #d3c1db73;
+    color: #d3d3d3;
+    cursor: not-allowed;
+}
+
+.btn:hover{
+    background-color: #b49abe;
+    color: #f0f0f0;
+}
+
+.Query {
+    height: 50px;
+    width: 72%;
+    min-width: 265px;
+    margin: 20px auto;
+    padding: 5px;
+    background-color: #e4d9c5;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Query h2 {
+    color: #FFF8F3;
+}
+
+.HeadingMain {
+    font-family: 'PT Serif', serif;
+    margin: 20px auto;
+    background-color: #655D8A;
+    padding: 20px;
+    color: #FDCEB9;
+    height: 500px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+}
+
+.Heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Heading h2 {
+    color: #FDCEB9;
+}
+
+.Heading div {
+    width: 320px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.Heading p {
+    height: 50px;
+    color: #FDCEB9;
+}
+
+.Font {
+    color: #D885A3;
+}
+
+.errorMsgMain {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.errorMsgDetails {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.errorMsgBtn {
+    height: 35px;
+    width: 100px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.errorMsgBtn:hover {
+    background-color: white;
+    border: 1px solid #5896e3;
+    color: #5896e3;
+}
+
+/*animation*/
+
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+
+
+@media (max-width: 921px) {
+    .Img img {
+        width: 420px;
+    }
+}
+
+@media (max-width: 790px) {
+    .Img img {
+        width: 350px;
+    }
+
+    .Heading {
+        flex-flow: column;
+    }
+
+    .Heading p {
+        height: 0;
+    }
+
+    .HeadingMain {
+        height: auto;
+    }
+
+}
+
+@media (max-width: 700px) {
+    .Main {
+        flex-flow: column-reverse;
+        background-position: left;
+    }
+}
+
+@media (max-width: 405px) {
+    .Img {
+        display: none;
+    }
+
+    .SubDetails select {
+        height: 40px;
+    }
+
+    .SubDetails input {
+        height: 40px;
+    }
+
+    .Query {
+        height: 40px;
+    }
+}

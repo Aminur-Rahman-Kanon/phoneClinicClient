@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Creepster&family=Josefin+Sans&family=Luxurious+Roman&family=Open+Sans:wght@300&family=PT+Sans&family=PT+Sans+Narrow:wght@700&family=PT+Serif&family=Permanent+Marker&family=Playball&family=Playfair+Display&family=Roboto:wght@100&family=Source+Sans+Pro:wght@300&family=Source+Serif+Pro&display=swap');
+
+.Main {
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.Items {
+    width: 350px;
+    margin: 30px 0;
+    height: 371px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform .5s;
+}
+
+.Items a {
+    text-decoration: none;
+}
+
+.Items:hover{
+    transform: scale(1.2);
+}
+
+.Items img {
+    height: 200px;
+    width: 200px;
+}
+
+.Empty {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.Details {
+    width: 250px;
+    margin: 0 auto;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.Details h3 {
+    color: #000;
+}
+
+.PaginationMain {
+    background-color: #f9f9f9;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px auto;
+}
+
+ .paginationBtn {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+
+.paginationBtn a:hover {
+    background-color: #e9aebd;
+    color: white;
+}
+
+.active {
+    background-color: #e9aebd;
+    color: white;
+}
+
+
+.previousBtn, .nextBtn, .paginationBtn a {
+    padding: 10px;
+    margin: 8px;
+    border-radius: 10px;
+    border: 1px solid #bfbfff;
+    width: 45px;
+    height: 18px;
+    color: black;
+}
+
+@media (max-width: 777px) {
+    .Items {
+        margin: 0;
+        justify-content: center;
+    }
+
+    .Details {
+        height: 0;
+    }
+}

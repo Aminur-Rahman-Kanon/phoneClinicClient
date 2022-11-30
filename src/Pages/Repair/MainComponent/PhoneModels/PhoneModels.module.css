@@ -1,0 +1,42 @@
+.Main {
+    width: 100%;
+}
+
+.Main a {
+    text-decoration: none;
+}
+
+.PicMain {
+    width: 100%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Pic {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PicMain img {
+    height: 100%;
+    width: 38%;
+}
+
+.Mobile {
+    width: 90%;
+    margin: 80px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media (max-width: 1000px) {
+    .PicMain img {
+        height: auto;
+    }
+}

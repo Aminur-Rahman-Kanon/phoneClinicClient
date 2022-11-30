@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Rajdhani&family=Roboto+Condensed&display=swap');
+
+.main {
+    position: relative;
+    font-family: 'Rajdhani', sans-serif;
+    
+}
+.background {
+    height: 100vh;
+    width: 100%;
+    background-image: url('../../Assets/Images/others/registration.jpg');
+    background-position: center;
+    background-size: cover;
+    filter: brightness(0.7);
+}
+
+.loginFormMain {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    font-family: inherit;
+}
+
+.inputFields {
+    width: 350px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputField {
+    height: 35px;
+    width: 350px;
+    margin: 10px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputField.wrongInputField {
+    border: 1px solid red;
+}
+
+.input {
+    width: 90%;
+    border: none;
+    outline: none;
+}
+
+.inputHint {
+    margin: 5px;
+}
+
+.loginIcon {
+    font-size: 14px;
+    color: grey;
+}
+
+.loginBtn {
+    height: 35px;
+    width: 150px;
+    margin: 20px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    background-color: white;
+    color: grey;
+    cursor: pointer;
+}
+
+.loginBtn:hover {
+    background-color: #5f9ee5;
+    color: white;
+}
+
+.loginBtn:disabled {
+    cursor: not-allowed;
+    background-color: lightgray;
+    color: rgb(160, 158, 158);
+}
+
+.displayMsgContainer {
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.displayMsgBtn {
+    height: 35px;
+    width: 100px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: white;
+    color: grey;
+    cursor: pointer;
+}
+
+.displayMsgBtn:hover {
+    background-color: #5f9ee5;
+    color: white;
+}
+
+.registrationPrompt {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registerLink {
+    text-decoration: none;
+    color: #5f9ee5;
+    margin: 10px;
+}
+
+.registerLink:hover {
+    color: #5f9ee5;
+    transform: scale(1.2);
+}
+
+@media (max-width: 800px) {
+    .loginFormMain {
+        width: 90%;
+    }
+
+    .inputFields {
+        width: 100%;
+    }
+
+    .inputField {
+        width: 80%;
+    }
+}

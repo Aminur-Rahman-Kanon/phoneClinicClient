@@ -1,0 +1,102 @@
+.sidePanelContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidePanelItem {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.sidePanelLink {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: grey;
+}
+
+.sidePanelLink.sidePanelActive {
+    color: #5692e2;
+}
+
+.sidePanelLink:hover > .sidePanelIcon, .sidePanelLink:hover > .sidePanelDetails {
+    color: #5692e2;
+
+}
+
+.sidePanelIcon {
+    color: inherit;
+    font-size: 25px;
+}
+
+.sidePanelDetails {
+    margin: 5px;
+    font-size: 13px;
+    color: inherit;
+}
+
+.displayUserContainer {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.displayUserMain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.displayUserImg {
+    font-size: 45px;
+    color: grey;
+}
+
+.displayUserHeaders {
+    display: flex;
+    flex-flow: column;
+}
+
+.displayUserH4 {
+    margin: 1px;
+}
+
+.logOutBtn {
+    height: 20px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.logOutBtn:hover {
+    color: #5692e2;
+    transform: scale(1.2);
+    background-color: white;
+}
+
+.googleUserImg {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+@media (max-width: 990px) {
+    .displayUserDetails {
+        display: flex;
+        flex-flow: column;
+    }
+
+    .displayUserHeaders {
+        flex-flow: row;
+    }
+}

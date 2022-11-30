@@ -1,0 +1,25 @@
+.Toolbar {
+    width: 100%;
+    margin: 5px auto;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Toolbar nav {
+    display: flex;
+    align-items: center;
+}
+
+
+@media (max-width: 990px){
+    .Toolbar nav {
+        display: none;
+    }
+    
+    .login {
+        display: none;
+    }
+}
