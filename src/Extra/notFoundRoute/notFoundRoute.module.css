@@ -1,0 +1,28 @@
+.notFoundMain {
+    width: 100%;
+    margin: 50px auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.notFoundImage {
+    width: 350px;
+}
+
+.notFoundLink {
+    display: block;
+    text-decoration: none;
+    color: #2c6cbf;
+}
+
+.notFoundLink:hover {
+    transform: scale(1.2);
+}
+
+@media (max-width:520px) {
+    .notFoundImage {
+        width: 90%;
+    }
+}

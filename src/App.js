@@ -17,6 +17,7 @@ import StoreLocator from './Pages/StoreLocator/StoreLocator';
 import CurrencyExchange from './Pages/CurrencyExchange/CurrencyExchange';
 import Registration from './Pages/Registration/registration';
 import Login from './Pages/Login/login';
+import NotFoundRoute from './Extra/notFoundRoute/notFoundRoute';
 
 const App = () => {
 
@@ -84,6 +85,8 @@ const App = () => {
             <Route path='other_services/store_locator' element={<StoreLocator />} />
 
             <Route path='aboutus' element={<AboutUs />} />
+
+            <Route path='*' element={<NotFoundRoute />} />
 
           </Routes>
 
