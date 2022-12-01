@@ -11,4 +11,4 @@ const phoneModel = (props) => {
     )
 }
 
-export default React.memo(phoneModel);
+export default phoneModel;

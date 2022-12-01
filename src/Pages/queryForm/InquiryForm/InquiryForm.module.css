@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Rajdhani&family=Roboto+Condensed&display=swap');
+
+.Heading {
+    width: 98%;
+    margin: 30px auto;
+    display: flex;
+    flex-flow: column;
+    height: 400px;
+    border-radius: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #53647e;
+}
+
+.MainHeading {
+    width: 98%;
+    margin: 50px auto;
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #041C32;
+}
+
+.MainImg, .MainHeadingPara {
+    width: 40%;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.Subform {
+    color: white;
+}
+
+.MainImg img {
+    width: 95%;
+}
+
+.Heading h2 {
+    color: #d9d9d9;
+}
+
+.SubHeading {
+    width: 95%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Subs {
+    width: 280px;
+    padding: 15px;
+    height: 220px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.Subs h3 {
+    height: 80px;
+    color: #d9d9d9;
+}
+
+.Subs img {
+    height: 150px;
+    width: 150px;
+}
+
+.Font {
+    color: #52616B;
+    font-size: 40px;
+}
+
+
+.Form {
+    display: flex;
+    height: 700px;
+    width: 650px;
+    min-width: 400px;
+    margin: 50px 10px;
+    padding: 10px;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #b1b1b1;
+}
+
+.Img {
+    width: 95%;
+    margin: 50px auto;
+    padding: 15px 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Subimg {
+    width: 45%;
+    margin: 0 auto;
+    padding: 8px;
+}
+
+.Subpara {
+    width: 45%;
+    margin: 0 auto;
+    padding: 8px;
+    color: #3a7ed9;
+}
+
+.ParaHeader {
+    margin: 25px auto;
+}
+
+.Subparaheader h4 {
+    margin: 5px;
+}
+
+.Img img{
+    width: 100%;
+}
+
+.msgContainer {
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.msgBody {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.msgBtn {
+    height: 35px;
+    width: 150px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: white;
+    color: grey;
+    cursor: pointer;
+}
+
+.msgBtn:hover {
+    background-color: #5894e2;
+    color: white;
+}
+
+@media (max-width: 820px) {
+    .MainImg {
+        display: none;
+    }
+
+    .MainHeadingPara {
+        width: 90%;
+    }
+}
+
+@media (max-width: 750px) {
+    .Heading {
+        height: auto;
+    }
+
+    .SubHeading {
+        flex-flow: column;
+    }
+
+    .Subs {
+        height: 120px;
+        width: 95%;
+        margin: 10px auto;
+    }
+
+    .Subs h3 {
+        font-size: 15px;
+        height: auto;
+    }
+}
+
+@media (max-width: 655px) {
+    .Heading h2 {
+        font-size: 22px;
+    }
+
+    .Subimg {
+        display: none;
+    }
+
+    .Subpara {
+        width: 100%;
+    }
+}

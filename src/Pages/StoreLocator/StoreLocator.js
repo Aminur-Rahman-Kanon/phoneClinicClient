@@ -29,11 +29,10 @@ const StoreLocator = () => {
                         <div className={styles.store1Pic}></div>
                         <h3>Old Kent Road, SE1</h3>
                         <div className={styles.storeDetails}>
-                            <ul>
-                                <li> 271 Old Kent Road, London</li>
-                                <li>SE1 5LU</li>
-                                <li><a href="tel:02072372724">020 7237 2724</a></li>
-                            </ul>
+                            <p> 271 Old Kent Road, London</p>
+                            <p>SE1 5LU</p>
+                            <p><a href="tel:02072372724" className={styles.phoneNumber}>020 7237 2724</a></p>
+
                             <div className={styles.direction}>
                                 <FontAwesomeIcon icon={faLocationArrow} className={styles.location}/>
                                 <a href="https://www.google.com/maps/place/Phone+Clinic/@51.4891588,-0.0820587,16.21z/data=!4m5!3m4!1s0x4876036920da01b5:0x45fb4c3e98af7ccd!8m2!3d51.4893716!4d-0.0784252" target="_blank" rel="noreferrer">Get Direction</a>
@@ -45,12 +44,10 @@ const StoreLocator = () => {
                         <div className={styles.store2Pic}></div>
                         <h3>Waterloo, SE1</h3>
                         <div className={styles.storeDetails}>
-                            <ul>
-                                <li>231 Waterloo Rd, London</li>
-                                <li>SE1 8XH</li>
-                                <li><a href="tel:07484369049">07484 369049</a></li>
+                                <p>231 Waterloo Rd, London</p>
+                                <p>SE1 8XH</p>
+                                <p><a href="tel:07484369049" className={styles.phoneNumber}>07484 369049</a></p>
 
-                            </ul>
                             <div className={styles.direction}>
                                 <FontAwesomeIcon icon={faLocationArrow} className={styles.location}/>
                                 <a href="https://www.google.com/maps/place/Waterloo+Rd,+London+SE1+8XH/@51.4996554,-0.1088619,17z/data=!3m1!4b1!4m5!3m4!1s0x487604bb5bb03399:0x4346bc36fe7c6f1!8m2!3d51.4997228!4d-0.1066179" target="_blank" rel="noreferrer">Get Direction</a>

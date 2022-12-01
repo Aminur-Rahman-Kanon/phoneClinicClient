@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Rajdhani&family=Roboto+Condensed&display=swap');
+
+
 .Main {
     height: 250px;
     width: 90%;
@@ -7,9 +10,8 @@
     flex-flow: column;
     justify-content: space-evenly;
     align-items: center;
-    font-family: 'Amatic SC', cursive;
-    font-family: 'Luxurious Roman', cursive;
     color: #468bdf;
+    font-family: 'Rajdhani', sans-serif;
 }
 
 .Sub {

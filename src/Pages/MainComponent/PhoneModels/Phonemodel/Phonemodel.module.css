@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Josefin+Sans&family=Luxurious+Roman&family=Open+Sans:wght@300&family=PT+Sans+Narrow:wght@700&family=PT+Serif&family=Permanent+Marker&family=Playball&family=Roboto:wght@100&family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Rajdhani&family=Roboto+Condensed&display=swap');
 
 .Main {
     height: 150px;
@@ -12,6 +12,7 @@
     margin: 10px;
     cursor: pointer;
     text-decoration: none;
+    font-family: 'Rajdhani', sans-serif;
 }
 
 .Main:hover {
@@ -22,7 +23,6 @@
 .Main h2 {
     color: #30475E;
     font-size: 20px;
-    font-family: 'PT Sans Narrow', sans-serif;
 }
 
 .Main:hover > h2{
@@ -39,7 +39,6 @@
 
 .Main p {
     color: #3E3636;
-    font-family: 'PT Serif', serif;
 }
 
 @media (max-width:799px) {

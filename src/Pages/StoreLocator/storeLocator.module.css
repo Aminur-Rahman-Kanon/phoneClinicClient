@@ -59,17 +59,17 @@
     background-size: cover;
 }
 
+.phoneNumber {
+    text-decoration: none;
+    color: #5490e1;
+}
+
 .storeDetails {
     line-height: 1.5;
 }
 
-.storeDetails ul {
-    list-style: none;
-    padding: 0;
-}
-
-.storeDetails ul li {
-    margin: 5px auto;
+.storeDetails > p {
+    margin: 5px;
 }
 
 .direction a {
