@@ -147,7 +147,7 @@ const PcMain = () => {
                 {pcCategories}
             </div>
 
-            <GetAquote device={this.props.device}/>
+            <GetAquote />
         </>
     )
 }

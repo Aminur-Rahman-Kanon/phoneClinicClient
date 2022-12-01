@@ -82,7 +82,7 @@ const MainComponent = (props) => {
                 <p>All our Phone Clinic stores have dedicated technicians that specialise in repairing and finding the best solution to fix your Mac. We provide a range of repairs for Macbooks and iMac which include screen replacement, battery replacement, keyboard replacement, touchpad replacement,
                     charging issues, liquid diagnostics, and data diagnostics. Book a free consultation and our technicians will provide the best solution to get your device fixed.</p>
             </div>
-            <GetAquote device={props.device}/>
+            <GetAquote />
         </>
     )
 }
