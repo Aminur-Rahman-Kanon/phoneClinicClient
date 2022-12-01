@@ -10,7 +10,6 @@ import money from '../../Assets/Images/others/moneyTransfers.png';
 import exchange from '../../Assets/Images/others/exchange.png';
 import accessories from '../../Assets/Images/others/accessories.png';
 
-
 const AboutUs = () => {
 
     useEffect(() => {
@@ -61,7 +60,7 @@ const AboutUs = () => {
                 <h3>At Phone Clinic You will get the following Services</h3>
                 <div className={styles.Services}>
                     <div className={styles.service} alt="Phone">
-                        <img src={phone}/>
+                        <img src={phone} alt="phone"/>
                         <div className={styles.details}>
                             <h2>Phone Repair</h2>
                             <p>We repair Phone of All different kinds of Make and Model</p>

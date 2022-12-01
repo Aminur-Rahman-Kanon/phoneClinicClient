@@ -42,7 +42,10 @@ const InquiryForm = () => {
     }, [])
 
     useEffect(() => {
-        if (make.length > 0 && model.length > 0 && description.length > 0 && service.length > 0 && name.length > 0 && phone.length > 0){
+        if ((make.length > 0 && model.length > 0 && description.length > 0
+            && service.length > 0 && name.length > 0 && phone.length > 0) || (make.length > 0
+            && model.length > 0 && color.length > 0 && storage.length > 0 && condition.length > 0
+            && name.length > 0 && phone.length > 0)){
             setBtnDisable(false);
         }
         else {
@@ -254,11 +257,8 @@ const InquiryForm = () => {
             <Modal switch={modal}>
                 {displayMsg}
             </Modal>
+
             {div1}
-
-            {div2}
-
-            {div3}
 
             <SubmitInquiry type={queryId}
                             formImg={formImage}
@@ -268,6 +268,10 @@ const InquiryForm = () => {
                             submitQuery={queryId === 'sale' ? saleQuery : repairQuery}
                             submitBtnDisable={btnDisable}
                             />
+            {div2}
+
+            {div3}
+
             <GetAquote />
         </>
     )

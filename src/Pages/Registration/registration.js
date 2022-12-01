@@ -40,8 +40,8 @@ function Registration() {
 
     const [spinner, setSpinner] = useState(false);
 
-    useEffect(() => {
 
+    useEffect(() => {
         switch(target){
             case 'firstName':
                 firstName.length >= 3 ? setFirstNameValidation(true) : setFirstNameValidation(false);
